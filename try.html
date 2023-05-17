@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* width: 100%; */
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .photo{
+            display: flex;
+            justify-content: center;
+
+        }
+        .photo img{
+            width: 500px;
+        }
+        @media screen and (max-width: 880px) {
+            .main{
+                flex-direction: column;
+            }
+            .photo img{
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+        @media screen and (max-width: 500px){
+            .photo img{
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reiciendis officiis eos repudiandae, eveniet dolore pariatur quae voluptas ea magni itaque magnam voluptatibus ad quos natus earum aliquid, quo expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum asperiores fugit accusantium. Deleniti odio officiis similique nulla enim suscipit sequi sed eos, placeat nesciunt vero impedit eligendi et maiores, alias, exercitationem culpa. Non dignissimos voluptate repudiandae soluta. Ad, nostrum sint! Culpa iure voluptas totam officia accusamus labore sint placeat aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident accusantium voluptatem iste, pariatur sapiente consequuntur quibusdam architecto asperiores consequatur quia vel rerum blanditiis sequi inventore totam iure ipsam porro maxime numquam quis! Ipsam commodi quae neque at veritatis ex nulla cum rem repellat? Iusto ex in et animi totam consectetur aliquid earum voluptatibus omnis, nulla molestiae fugit voluptatem! Aperiam ad laudantium debitis modi enim reprehenderit! Animi suscipit cumque voluptas iure saepe nihil velit pariatur, atque eius natus doloribus quis cum, veniam architecto impedit ad, provident enim sequi laudantium est quae nobis quos. Dolorem ratione mollitia, fugiat reprehenderit assumenda <nisi class="lorem200"></nisi></p>
+        </div>
+        <div class="photo">
+            <img src="gp dhanghar.jpg" alt="" >
+        </div>
+    </div>
+</body>
+</html>
